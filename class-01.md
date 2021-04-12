@@ -59,4 +59,15 @@ const element = (
 );
 ```
 
+- React.createElement() performs a few checks to help you write bug-free code but essentially it creates an object like this:
 
+```
+// Note: this structure is simplified
+const element = {
+  type: 'h1',
+  props: {
+    className: 'greeting',
+    children: 'Hello, world!'
+  }
+};
+```
