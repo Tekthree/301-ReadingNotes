@@ -5,7 +5,7 @@ Reading notes for seattle-code-301d73
 
 ## [Code 102 - Intro to Software Development ](https://tekthree.github.io/learning-journal/)
 ## [Code 201 - Foundations of Software Development](https://tekthree.github.io/reading-notes-/)
-## [Code 301 - Intermediate Software Development](https://tekthree.github.io/301-reading-notes/)
+## [Code 301 - Intermediate Software Development](https://tekthree.github.io/301-ReadingNotes/)
 ## Code 401 - Advanced Software Development
 
 :shipit:
