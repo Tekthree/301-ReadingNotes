@@ -17,4 +17,46 @@
 ### Why JSX
 
 - Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns with loosely coupled units called “components” that contain both.
-- 
+- You can put any valid JavaScript expression inside the curly braces in JSX. For example, 2 + 2, user.firstName, or formatName(user) are all valid JavaScript expressions.
+- We split JSX over multiple lines for readability. While it isn’t required, when doing this, we also recommend wrapping it in parentheses to avoid the pitfalls of automatic semicolon insertion.
+
+```
+const element = (
+  <h1>
+    Hello, {formatName(user)}!
+  </h1>
+);
+```
+
+- After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects.
+- You may use quotes to specify string literals as attributes:
+
+```
+const element = <div tabIndex="0"></div>;
+```
+
+- You may also use curly braces to embed a JavaScript expression in an attribute:
+
+```
+const element = <img src={user.avatarUrl}></img>;
+```
+
+- Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names.
+
+- If a tag is empty, you may close it immediately with />, like XML:
+
+```
+const element = <img src={user.avatarUrl} />;
+```
+
+- JSX tags may contain children:
+```
+const element = (
+  <div>
+    <h1>Hello!</h1>
+    <h2>Good to see you here.</h2>
+  </div>
+);
+```
+
+
