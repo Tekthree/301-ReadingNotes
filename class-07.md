@@ -38,7 +38,7 @@ ________________________________________________________________________________
 - HTTP—this protocol Fielding and his friends created—is all about applying verbs to nouns. For instance, when you go to a web page, the browser does an HTTP GET on the URL you type in and back comes a web page.
 
 ### API keys
-- Geocoding API
-- Weather Bit API
-- Yelp API Docs
-- The Movie DB API Docs
+- [x] Geocoding API
+- [x] Weather Bit API
+- [x] Yelp API Docs
+- [x] The Movie DB API Docs
