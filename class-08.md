@@ -24,3 +24,6 @@ DELETE removes data.
 - When designing endpoints, it makes sense to group those that contain associated information. That is, if one object can contain another object, you should design the endpoint to reflect that.
 
 - (Best practices for REST API design)[https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/]
+
+- (Documentation for SuperAgent)[https://visionmedia.github.io/superagent/]
+- (regex tutorial)[https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285]
