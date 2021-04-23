@@ -36,3 +36,15 @@ thirdFunction();
 ![error](https://cdn-media-1.freecodecamp.org/images/zOINLHPC8E56ac8yyINYOFWeImsjM2Wk2rdU)
 
 ![call stack](https://cdn-media-1.freecodecamp.org/images/QgR2uIk7tW0YNz0Xm8g0jAPeRFI0e4sCejsv)
+
+
+### JavaScript error messages
+
+- the first thing that indicates you that something is wrong with your code is the (in)famous error message that the one we saw just moments ago, it usually appears on your console (being developer tools of the browser, terminal or whatever else you are using).
+
+- testing is automatically called since it’s an IIFE (immediately Invoked Function Expression)
+
+- obj variable is declared with the function add (using ES6 shorthand for functions in objects, it would be the same having var obj = { add: add }
+- the function add is called from the obj variable with two strings has parameters, there are added which makes them “12” in this scenario and then split is called before returning [“1”, “2”]
+
+- the function add is called again, this time with number, the values are added making it 3 but then, split (which is not available for number type variables) is called which makes an error being thrown
