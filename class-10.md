@@ -33,4 +33,4 @@ thirdFunction();
 
 - When the code is run, we get an error. A stack is printed showing how the functions are stack on top each other. Take a look at the diagram.
 
-(error)![https://cdn-media-1.freecodecamp.org/images/zOINLHPC8E56ac8yyINYOFWeImsjM2Wk2rdU]
+(error)[https://cdn-media-1.freecodecamp.org/images/zOINLHPC8E56ac8yyINYOFWeImsjM2Wk2rdU]
